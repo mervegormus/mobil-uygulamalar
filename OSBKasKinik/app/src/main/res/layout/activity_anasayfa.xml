@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnasayfaActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+ <Button
+     android:id="@+id/button"
+     android:layout_width="48dp"
+     android:layout_height="wrap_content"
+     android:layout_gravity="end"
+     android:padding="10dp"
+     android:background="@drawable/logo"
+     android:textColor="@color/colorPink"
+  />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Mesleğiniz :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+
+ <Spinner
+     android:id="@+id/spinner1"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:spinnerMode="dropdown"
+     android:textSize="15dp"
+     />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="Seranız var mı :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+
+ <Spinner
+     android:id="@+id/spinner2"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:textSize="15dp"
+    />
+ <EditText
+     android:id="@+id/seraalan"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Seranız varsa kaç m² olduğunu yazınız"
+     android:textSize="15dp"
+     android:textColor="@color/colorSiyah"
+     android:textStyle="bold"
+
+/>
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="Hangi ürünleri yetiştiriyorsunuz :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+
+ <Spinner
+     android:id="@+id/spinner3"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:textSize="15dp"
+    />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="Yıllık kapasite :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+
+     />
+
+ <Spinner
+     android:id="@+id/spinner4"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:textSize="15dp"
+    />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="Kaç kişi çalışıyor :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+
+ <Spinner
+     android:id="@+id/spinner5"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:focusable="auto"
+     android:spinnerMode="dropdown"
+     android:textSize="15dp"
+   />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="En son ne zaman ilaçlama yapıldı :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+<EditText
+    android:id="@+id/tarihEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="date"
+    android:hint="GG/AA/YYYY"
+    android:textSize="15dp"
+    android:textColor="@color/colorSiyah"
+    android:textStyle="bold"
+    />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="Hangi ilaç kullanıldı :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+
+ <Spinner
+     android:id="@+id/spinner6"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:focusable="auto"
+     android:spinnerMode="dropdown"
+     android:textSize="15dp"
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="Gübreleme ne zaman yapıldı :"
+     android:textColor="@color/colorPink"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     />
+ <EditText
+     android:id="@+id/tarihEditText2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:inputType="date"
+     android:hint="GG/AA/YYYY"
+     android:textSize="15dp"
+     android:textColor="@color/colorSiyah"
+     android:textStyle="bold"
+     />
+
+
+ <Button
+     android:id="@+id/saveButton"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:text="GÖNDER"
+     android:textColor="@color/colorPrimary"
+     android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
